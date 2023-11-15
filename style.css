@@ -3,7 +3,7 @@
 /* CSS Document */
 /* body */
 body{
-	font-family:"Noto Sans TC",zh_TW.UTF-8;  /* google雲端字體 思源黑體*/
+	font-family:"Noto Sans TC",sans-serif;  /* google雲端字體 思源黑體*/
 	background:#B87070;   /* 背景色*/
 	margin: 0;          /* 外部距離設為0*/
 	text-align: center; /*文字居中對齊*/
@@ -11,7 +11,8 @@ body{
 }
 /* 區塊設定 */
 header{
-	background:-webkit-gradient;  /* 背景色*/
+	background: linear-gradient(rgb(252, 209, 209), rgba(217, 114, 96, 0.863));
+	/* 設定header的漸層背景色加不透明度80% */
 	padding-top: 10px;   /* 內距-上方，上方內部距離為10px*/
 }
 main{

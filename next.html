@@ -7,8 +7,10 @@
         <title>年輪</title> <!-- 網頁標題 -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 指定螢幕寬度為裝置寬度，畫面載入初始縮放比例100%-->
         <meta name="description" content="年輪歌詞"> <!-- 提供搜尋引擎關於網頁頁面內的重要資訊-->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script> 
         <link href="style.css" rel="stylesheet">  <!-- 連結到style.css設定視覺規劃-->
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <!-- <link rel="stylesheet" href="./style.css"> -->
     </head>
 <!-- head標頭資訊設定結束
@@ -24,8 +26,8 @@
   <nav class="navigation"> <!-- nav設定類別（class)為navigation-->
 
     <ul> 
-      <li><a href="./index.html">誰</a></li>
-      <li><a href="./next.html">年輪</a></li>
+      <li><a href="index.html">誰</a></li>
+      <li><a href="next.html">年輪</a></li>
     </ul>
 </nav>  
 <!-- nav導覽列設定結束--> 
@@ -69,6 +71,8 @@
     可惜從沒人陪我演這劇本<br>
     可惜從沒人陪我演這劇本<br>
 	<!-- a 超連結設定，需搭配href，target="_blank開啟新視窗--> 
+
+        
 <a href="http://www.youtube.com/watch?v=QGhvc6v1ZAQ"target="_blank">聽爆</a>
 
 </main>
@@ -79,4 +83,18 @@
 	<p class="copyright"><small>&copy; Copyright 2023 homework，本網站為作業之用，如有侵權敬請告知</small></p>
 	</footer>
 <!-- footer頁尾設定結束-->
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- 連結到jQuary資料庫-->
+        
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+        <script src="./all.js"></script>
 </body>
+</html>
+<script>
+    $(function(){
+        $("main").hide();
+        $("main").fadeIn(2000);
+    });
+</script>
